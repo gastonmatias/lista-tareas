@@ -1,0 +1,62 @@
+body{
+    padding: 50px;
+    background: #3a6186;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.container{
+    background-color: #302f59;
+    min-height: 500px;
+    
+    /* padding: 10px 10px 10px 10px; */
+    /* display: flex; */
+}
+
+
+h1{
+    padding: 10px;
+    color: aliceblue;
+}
+
+h4{
+    color: white;
+}
+
+.agregar{
+    background-color: #633a6d;
+    /* background-color: #570A57; */
+    padding: 10px 10px;
+    max-height: 190px;
+    
+}
+
+
+p{
+    cursor: pointer;/* para efecto de cursor */
+    margin: 0px;
+}
+
+.listado{
+    padding: 15px;
+}
+
+.list-group-item{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    cursor: pointer;
+}
+
+.complete{
+    text-decoration: line-through;
+}
+
+.todolistitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
